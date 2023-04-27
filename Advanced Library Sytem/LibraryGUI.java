@@ -72,7 +72,7 @@ public class LibraryGUI {
             String password = new String(passwordAdmin.getPassword());
 
             // Check the list of allowed credentials
-            String[][] allowedCredentials = {{"1", "1"}, {"Admin_02", "AdminTwo"}, {"Admin_03", "AdminThree"}};
+            String[][] allowedCredentials = {{"Admin_01", "AdminOne"}, {"Admin_02", "AdminTwo"}, {"Admin_03", "AdminThree"}};
             boolean allowed = false;
             for (int i = 0; i < allowedCredentials.length; i++) {
                 if (username.equals(allowedCredentials[i][0]) && password.equals(allowedCredentials[i][1])) {
@@ -159,7 +159,7 @@ public class LibraryGUI {
             String password = new String(passwordLib.getPassword());
 
             // Check the list of allowed credentials
-            String[][] allowedCredentials = {{"1", "1"}, {"Librarian_02", "LibTwo"}, {"Librarian_03", "LibThree"}};
+            String[][] allowedCredentials = {{"Librarian_01", "LibOne"}, {"Librarian_02", "LibTwo"}, {"Librarian_03", "LibThree"}};
             boolean allowed = false;
             for (int i = 0; i < allowedCredentials.length; i++) {
                 if (username.equals(allowedCredentials[i][0]) && password.equals(allowedCredentials[i][1])) {
