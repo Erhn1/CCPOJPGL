@@ -1,9 +1,9 @@
 package inheritance;
 
 class Vehicle {
-    public int speed;
-    public String color;
-    public double price;
+    int speed;
+    String color;
+    double price;
 
     public void stop() {
         System.out.println("Vehicle stopped.");
